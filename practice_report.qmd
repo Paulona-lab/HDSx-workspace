@@ -1,5 +1,6 @@
 ---
 title: "My First Report
+author: "Paul"
 format:
   html:
     embed-resources: true
@@ -19,7 +20,7 @@ then click **Render**.
 The code chunk below reads a small practice dataset from the `data/` folder and
 shows the first few rows.
 
-```{r}
+```{r} patient age distribution 13 years to 19 years
 patients <- read.csv("data/patients.csv")
 head(patients)
 ```
@@ -31,8 +32,7 @@ hist(patients$age,
      main = "Age distribution of practice patients",
      xlab = "Age (years)",
      col  = "steelblue")
-```
-
+``` 
 
 
 - Add a sentence here describing what you notice in the chart.
