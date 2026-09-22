@@ -1,5 +1,5 @@
 ---
-title: "My First Report
+title: "My First Report"
 author: "Paul"
 format:
   html:
@@ -20,7 +20,8 @@ then click **Render**.
 The code chunk below reads a small practice dataset from the `data/` folder and
 shows the first few rows.
 
-```{r} patient age distribution 13 years to 19 years
+```{r}
+# patient age distribution 55-60
 patients <- read.csv("data/patients.csv")
 head(patients)
 ```
